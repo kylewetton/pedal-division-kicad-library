@@ -1,0 +1,118 @@
+(footprint "Mini Switch SPDT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.8 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "044f12d5-e538-4679-a143-741c6dedd913")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "Mini Switch SPDT"
+		(at 3.5 -0.2 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2ab77a88-a408-4934-bb98-6e8fc939eebc")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "797c4786-fdf6-4ef6-9622-f07b1aab8804")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47a8541c-3aab-4d71-ba17-dff9f3a63039")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd358418-4a30-4113-badb-7ef726161105")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 3.6 -0.1 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7a0429ac-2f50-4b45-87bf-195522d53ff4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.125)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -4.7)
+		(size 4.7 3.5)
+		(drill oval 3.2 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.07142857143)
+		(uuid "b08222ec-262d-43ff-9f87-761c1e5a6392")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 4.7 3.5)
+		(drill oval 3.2 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e657444-7ae3-4604-91b7-5a0ca843d633")
+	)
+	(pad "3" thru_hole oval
+		(at 0 4.7)
+		(size 4.7 3.5)
+		(drill oval 3.2 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13359223-126f-41e6-85d3-ef2df455a6ba")
+	)
+	(model "${PD_3D_MODELS}/DPDT.step"
+		(offset
+			(xyz 0 4.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

@@ -1,0 +1,203 @@
+(footprint "Dual_row"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "8dd7cb55-5ed2-48c9-8f8d-9c5ada6a5d7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Dual_row"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a4828ef-bca7-4ca7-99a7-f8c47b8e9d67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56127646-643c-46f5-980f-a4867a011ea2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d751561e-9c85-4d8a-90ce-708199956606")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -19.05 0)
+		(end -13.97 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "c5413e01-ce80-4b7d-b044-616ab80c38be")
+	)
+	(fp_line
+		(start -16.51 -2.54)
+		(end -16.51 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "ae28fe7e-405c-461d-89a1-1db1a5b3a60f")
+	)
+	(fp_line
+		(start -16.51 25.4)
+		(end -3.81 25.4)
+		(stroke
+			(width 0.127)
+			(type dot)
+		)
+		(layer "User.2")
+		(uuid "304305e4-6413-4547-bafd-1647f1b791fd")
+	)
+	(fp_line
+		(start 3.81 25.4)
+		(end 16.51 25.4)
+		(stroke
+			(width 0.127)
+			(type dot)
+		)
+		(layer "User.2")
+		(uuid "78ce9908-63e7-41b9-bcad-fd5773c06476")
+	)
+	(fp_line
+		(start 13.97 0)
+		(end 19.05 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "6567518c-3db3-4b2e-9966-b6c290a3c4bd")
+	)
+	(fp_line
+		(start 16.51 -2.54)
+		(end 16.51 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "02cf44ea-fae9-4b26-928f-8eedc7828a52")
+	)
+	(fp_circle
+		(center -16.51 0)
+		(end -13.335 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "f4697cea-1f29-436c-a972-6bb484bd5583")
+	)
+	(fp_circle
+		(center -16.51 0)
+		(end -9.01 -4)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "d017810f-fb34-4495-a0d9-e646927f5a51")
+	)
+	(fp_circle
+		(center 16.51 0)
+		(end 19.685 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "94a08035-64e2-45f2-aff1-7a5ac71763d5")
+	)
+	(fp_circle
+		(center 16.51 0)
+		(end 24.01 -4)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "1f956922-d504-4aa5-af72-dc2934ffe32d")
+	)
+	(fp_text user "0.0500 in GRID"
+		(at 16.51 5.08 0)
+		(unlocked yes)
+		(layer "User.2")
+		(uuid "95163328-7e3d-469b-83c7-78d6f574cfd8")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0125)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "CENTER NEXT ROW ON THIS LINE"
+		(at 0 25.4 0)
+		(unlocked yes)
+		(layer "User.2")
+		(uuid "9ce32a45-0dc5-45d6-91c5-20d0fca0d731")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "0.0500 in GRID"
+		(at -16.51 5.08 0)
+		(unlocked yes)
+		(layer "User.2")
+		(uuid "a9322934-a3aa-417e-b941-f420ae53d3c7")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0125)
+				(bold yes)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,144 @@
+(footprint "01x02_socket"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.08 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2cd45e1a-774d-4cdd-8903-9c9316696600")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "01x02_socket"
+		(at 7.62 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "715c67e0-c10a-40f0-b6bb-a4163dc83bf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25d4beb6-c03f-4852-ad7e-d586e53821df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c358a415-68d3-40c0-9bc6-ed62c8a837ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.27 -1.27)
+		(end 1.27 3.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c8216372-ea5f-4923-97e1-3c4a3a6361ba")
+	)
+	(fp_circle
+		(center 1.905 0)
+		(end 2.032 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d10e2877-c6b0-4261-97cc-72afa4f0114e")
+	)
+	(fp_rect
+		(start -1.27 -1.27)
+		(end 1.27 3.81)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9d00cf48-f103-4e8d-bd7f-fdb416373b81")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "afe11003-7782-41a4-a9ee-1c6c55a96b32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1230314961)
+		(thermal_bridge_angle 45)
+		(uuid "685f7de0-a82f-4fb1-86a6-d52cb706650e")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "84a2c6b9-98d2-431e-aed2-01905d68cc94")
+	)
+	(embedded_fonts no)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz 0 -2.54 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

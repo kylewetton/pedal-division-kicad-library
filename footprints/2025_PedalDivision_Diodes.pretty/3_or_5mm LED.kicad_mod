@@ -1,0 +1,232 @@
+(footprint "3_or_5mm LED"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED 3mm round vertical")
+	(tags "LED  3mm round vertical")
+	(property "Reference" "LED1"
+		(at -2.9718 0.1246 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c32073af-1801-4682-8e7b-8d1717aa814d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "COLOR"
+		(at 0 0 -90)
+		(layer "F.SilkS")
+		(uuid "f4ac90be-3915-4386-a4b7-ec9aa591b7ed")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6470da15-df77-4959-9100-97b6ce43a51c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52b66d9e-2762-40c7-bb4d-131a663a4363")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33e0f584-bfc8-4778-ab8b-c87839a26a7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.469 -1.28)
+		(end -1.469 -1.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14d7fa61-857d-4518-bdf9-10a1444bb59f")
+	)
+	(fp_line
+		(start -1.469 1.314)
+		(end -1.469 1.114)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "298fee12-d587-4300-84d6-be9bdef0e41f")
+	)
+	(fp_arc
+		(start -1.469 -1.286)
+		(mid 0.225903 -1.954571)
+		(end 1.758744 -0.969643)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65bd8145-e4a6-40f0-9b8b-8eaa2afe569a")
+	)
+	(fp_arc
+		(start -1.02 -1.1)
+		(mid 0.031686 -1.512142)
+		(end 1.083005 -1.099067)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c9c5b6b-c98b-4745-abbe-aba8fd28e8f6")
+	)
+	(fp_arc
+		(start 1.065 1.094)
+		(mid 0.04492 1.51473)
+		(end -0.982889 1.113252)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "435a79dd-13a2-4104-9489-f475cfc2703e")
+	)
+	(fp_arc
+		(start 1.781 0.994)
+		(mid 0.252637 2.009958)
+		(end -1.45622 1.340726)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10275027-7dfe-41a9-8749-a4c6a73cdfb0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "67acaaaa-ba20-407f-a601-7b6984e3a286")
+	)
+	(fp_line
+		(start -2.35 -2.28)
+		(end -2.35 2.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2557cc90-86fb-4e6c-88f2-4ae3472032e3")
+	)
+	(fp_line
+		(start -2.35 2.28)
+		(end 2.35 2.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "779a98b4-6389-4c45-8be0-d4285525587e")
+	)
+	(fp_line
+		(start 2.35 -2.28)
+		(end -2.35 -2.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c117db3-674f-4deb-bdb2-de3a2c492e86")
+	)
+	(fp_line
+		(start 2.35 2.28)
+		(end 2.35 -2.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f79897c-1035-4a46-89d4-a75174ad16f4")
+	)
+	(fp_text user "+"
+		(at 1.85 -1.825 0)
+		(layer "F.SilkS")
+		(uuid "5957a4bd-a24c-4e14-88d3-c5e48e0ac8e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at -1.925 -1.775 90)
+		(layer "F.SilkS")
+		(uuid "6326fcda-b0c0-4b99-81f5-ef706a6a608e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 0 90)
+		(size 1.651 1.651)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ee1b639b-f281-4971-a5c3-ce5388a8d701")
+	)
+	(pad "2" thru_hole rect
+		(at 1.27 0)
+		(size 1.651 1.651)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bdf1a688-0f9e-4b66-9943-f7148965941d")
+	)
+	(model "${PD_3D_MODELS}/Led_3mm.step"
+		(offset
+			(xyz 0 0 -14.04)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+)

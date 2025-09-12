@@ -1,0 +1,112 @@
+(footprint "DrillMarker_Footswitch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c8c4eb2-6eac-44f3-b7c6-3bd317fae47f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DrillMarker_Footswitch"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99541a14-a047-45a2-bbd3-f5f6db2a6a88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08ce509b-3ce9-44cf-805a-8e741eaf7055")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb385a3e-f7b4-45ba-9c3f-b57ef6245d90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+		dnp
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "f8c9637c-4174-4087-a7e0-7a55df5ab99a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "4905ee08-8562-4e6a-901d-abe1e514fb24")
+	)
+	(fp_text user "FOOTSWITCH"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "User.4")
+		(uuid "b5f3a666-3d93-4071-8530-1465ec8372bb")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "12mm"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "User.4")
+		(uuid "bb286a71-3ee7-4887-bc29-897f30f8e03a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(embedded_fonts no)
+)

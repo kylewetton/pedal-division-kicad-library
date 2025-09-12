@@ -1,0 +1,258 @@
+(footprint "Triple_Row"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "8dd7cb55-5ed2-48c9-8f8d-9c5ada6a5d7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Triple_Row"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a4828ef-bca7-4ca7-99a7-f8c47b8e9d67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56127646-643c-46f5-980f-a4867a011ea2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d751561e-9c85-4d8a-90ce-708199956606")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -22.86 0)
+		(end -17.78 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "3ad8f8fe-788e-4678-b656-cf6a59499c0b")
+	)
+	(fp_line
+		(start -20.32 -2.54)
+		(end -20.32 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "9607afb0-fcab-4d1c-beb1-1f77e41464f6")
+	)
+	(fp_line
+		(start -16.51 25.4)
+		(end -3.81 25.4)
+		(stroke
+			(width 0.127)
+			(type dot)
+		)
+		(layer "User.2")
+		(uuid "304305e4-6413-4547-bafd-1647f1b791fd")
+	)
+	(fp_line
+		(start -2.54 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "c35cfcd2-0567-41dc-a104-60bcefc2a2e8")
+	)
+	(fp_line
+		(start 0 -2.54)
+		(end 0 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "5b03a530-e238-47c3-af91-86baa1cbc02c")
+	)
+	(fp_line
+		(start 3.81 25.4)
+		(end 16.51 25.4)
+		(stroke
+			(width 0.127)
+			(type dot)
+		)
+		(layer "User.2")
+		(uuid "78ce9908-63e7-41b9-bcad-fd5773c06476")
+	)
+	(fp_line
+		(start 17.78 0)
+		(end 22.86 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "78441cfd-eb12-44c5-a619-d2d7ddd20d35")
+	)
+	(fp_line
+		(start 20.32 -2.54)
+		(end 20.32 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "4f6a156b-8c3c-4edb-aab6-8d7e3821566b")
+	)
+	(fp_circle
+		(center -20.32 0)
+		(end -17.145 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "6f240f5e-5d89-4908-9307-4d41e1f451f0")
+	)
+	(fp_circle
+		(center -20.32 0)
+		(end -12.82 -4)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "69329be7-d6df-41ae-8d2d-5d2720979e8e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.175 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "7f82b1de-d82d-441a-b8f2-59fbc30e672b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7.5 -4)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "0c8d2ed5-71c0-4bcd-95fd-bac9e69b73d5")
+	)
+	(fp_circle
+		(center 20.32 0)
+		(end 23.495 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "f4697cea-1f29-436c-a972-6bb484bd5583")
+	)
+	(fp_circle
+		(center 20.32 0)
+		(end 27.82 -4)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "7d0a69e4-70a9-4aeb-8825-007ff5118bca")
+	)
+	(fp_text user "0.0500 in GRID"
+		(at 20.32 6.35 0)
+		(unlocked yes)
+		(layer "User.2")
+		(uuid "07561402-96fd-4fd8-8856-fc99944d2c04")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0125)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "0.0500 in GRID"
+		(at 0 6.35 0)
+		(unlocked yes)
+		(layer "User.2")
+		(uuid "8d4e4ecb-96e5-4e43-a921-d8d23fc6d9fb")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0125)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "CENTER NEXT ROW ON THIS LINE"
+		(at 0 25.4 0)
+		(unlocked yes)
+		(layer "User.2")
+		(uuid "9ce32a45-0dc5-45d6-91c5-20d0fca0d731")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "0.0500 in GRID"
+		(at -20.32 6.35 0)
+		(unlocked yes)
+		(layer "User.2")
+		(uuid "c4d9a5b2-8229-4550-928b-0bb6d33c8338")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.0125)
+				(bold yes)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,67 @@
+(footprint "3.4mm Hole (3mm LED)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.0254 -6.6802 0)
+		(unlocked yes)
+		(layer "User.1")
+		(hide yes)
+		(uuid "5bbcd6cc-0f57-407d-bdd9-dfb0085b961d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "3.4mm Hole (3mm LED)"
+		(at 0 7.7724 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66afb3fa-7c0f-4ed6-9a71-634d08905a28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f71142b-a33a-41f7-8c7b-e60baed94b3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4753e1e3-ee71-4c35-a7cd-37a85179b2f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "da7ef9bd-d2b7-47bb-95ca-670176b3b5de")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,238 @@
+(footprint "SOT-23"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-23, Standard")
+	(tags "SOT-23")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "75499e6a-74fa-4826-8b95-4fe095b0bddb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-23"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "2c76a6ec-9232-4669-8fb6-75d047fc2bee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e91ea48f-c156-48f3-ad5a-f2e9b3ad14e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c97fec1-1bce-4a4c-93a1-afeaa3bd1b39")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d00f2f7-e923-4863-a3f4-8e1a6200f2d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.76 -1.58)
+		(end -1.4 -1.58)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61fcf323-3ef6-45e0-84c7-0179fa971101")
+	)
+	(fp_line
+		(start 0.76 -1.58)
+		(end 0.76 -0.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bde3b25c-1d8a-4a98-99f9-782f8d8a78a2")
+	)
+	(fp_line
+		(start 0.76 1.58)
+		(end -0.7 1.58)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "836c21cf-39ba-4af4-a75c-cc38ef0540a3")
+	)
+	(fp_line
+		(start 0.76 1.58)
+		(end 0.76 0.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87ef020a-4d4d-48b6-99d8-4870730d9558")
+	)
+	(fp_line
+		(start -1.7 -1.75)
+		(end 1.7 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc2c8554-ea24-4002-8c62-bccd1d10013b")
+	)
+	(fp_line
+		(start -1.7 1.75)
+		(end -1.7 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d9d916c-5ae4-4e41-aaf2-983410199aab")
+	)
+	(fp_line
+		(start 1.7 -1.75)
+		(end 1.7 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2cfe20e8-faf9-4845-9409-cb14a4718c31")
+	)
+	(fp_line
+		(start 1.7 1.75)
+		(end -1.7 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6b2a999-c691-4dc7-b8fc-2e0e36445aae")
+	)
+	(fp_line
+		(start -0.7 -0.95)
+		(end -0.7 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5264a344-f201-426a-9c20-af3bf3bc94cf")
+	)
+	(fp_line
+		(start -0.7 -0.95)
+		(end -0.15 -1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cbcbd4e8-54b6-4185-a228-5bbab83d90ce")
+	)
+	(fp_line
+		(start -0.7 1.52)
+		(end 0.7 1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "deba5a6d-c7f1-4e2c-ad5f-9bf6a46edc8d")
+	)
+	(fp_line
+		(start -0.15 -1.52)
+		(end 0.7 -1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9aa19625-755a-44c4-b47d-e23635c8fe1f")
+	)
+	(fp_line
+		(start 0.7 -1.52)
+		(end 0.7 1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6269ca24-a87d-41ec-ba08-152b6311137e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "8be109d1-fa15-4796-97a5-d82e67ea7568")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 -0.95)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "18efefc8-7388-4eb5-8532-2b184c6e928a")
+	)
+	(pad "2" smd rect
+		(at -1 0.95)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2b606558-4cbd-44b2-b054-70fd8c31f724")
+	)
+	(pad "3" smd rect
+		(at 1 0)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "43f49f6c-08a7-46f3-9ffd-e85f1407707b")
+	)
+	(model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
