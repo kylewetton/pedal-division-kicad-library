@@ -1,16 +1,20 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "TM011-R"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim yes)
-		(in_bom no)
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "T"
-			(at 0 5.715 0)
+			(at 0 5.842 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -19,7 +23,7 @@
 			)
 		)
 		(property "Value" "VALUE"
-			(at 0 -5.715 0)
+			(at 0 -5.842 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -27,7 +31,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PedalDivision_Transformers:TM011-R"
+		(property "Footprint" "2025_PedalDivision_Transformers:TM011-R _ 42TM series"
 			(at 4.318 -14.224 0)
 			(effects
 				(font
@@ -37,7 +41,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 -3.175 0)
+			(at 0 -3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,9 +78,9 @@
 		)
 		(symbol "TM011-R_0_1"
 			(arc
-				(start -2.2858 -4.3178)
-				(mid -1.5674 -4.0202)
-				(end -1.2698 -3.3018)
+				(start -2.54 3.81)
+				(mid -1.193 3.252)
+				(end -0.635 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -86,9 +90,9 @@
 				)
 			)
 			(arc
-				(start -2.2859 -2.2859)
-				(mid -1.5675 -1.9883)
-				(end -1.2699 -1.2699)
+				(start -0.635 1.905)
+				(mid -1.193 0.558)
+				(end -2.54 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -98,9 +102,9 @@
 				)
 			)
 			(arc
-				(start -2.2859 -0.2539)
-				(mid -1.5675 0.0437)
-				(end -1.2699 0.7621)
+				(start -2.54 0)
+				(mid -1.193 -0.558)
+				(end -0.635 -1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -110,57 +114,9 @@
 				)
 			)
 			(arc
-				(start -2.286 1.778)
-				(mid -1.5676 2.0756)
-				(end -1.27 2.794)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.2698 -3.3018)
-				(mid -1.5674 -2.5834)
-				(end -2.2858 -2.2858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.2699 -1.2699)
-				(mid -1.5675 -0.5515)
-				(end -2.2859 -0.2539)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.2699 0.7621)
-				(mid -1.5675 1.4805)
-				(end -2.2859 1.7781)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 2.794)
-				(mid -1.5676 3.5124)
-				(end -2.286 3.81)
+				(start -0.635 -1.905)
+				(mid -1.193 -3.252)
+				(end -2.54 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -194,9 +150,9 @@
 				)
 			)
 			(arc
-				(start 1.2699 -3.3019)
-				(mid 1.5675 -4.0203)
-				(end 2.2859 -4.3179)
+				(start 0.635 1.905)
+				(mid 1.193 3.252)
+				(end 2.54 3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -206,9 +162,9 @@
 				)
 			)
 			(arc
-				(start 1.27 -1.27)
-				(mid 1.5676 -1.9884)
-				(end 2.286 -2.286)
+				(start 2.54 0)
+				(mid 1.193 0.558)
+				(end 0.635 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -218,9 +174,9 @@
 				)
 			)
 			(arc
-				(start 1.27 0.762)
-				(mid 1.5676 0.0436)
-				(end 2.286 -0.254)
+				(start 0.635 -1.905)
+				(mid 1.193 -0.558)
+				(end 2.54 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -230,57 +186,9 @@
 				)
 			)
 			(arc
-				(start 1.2701 2.7939)
-				(mid 1.5677 2.0755)
-				(end 2.2861 1.7779)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.2859 -2.2859)
-				(mid 1.5675 -2.5835)
-				(end 1.2699 -3.3019)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.286 -0.254)
-				(mid 1.5676 -0.5516)
-				(end 1.27 -1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.286 1.778)
-				(mid 1.5676 1.4804)
-				(end 1.27 0.762)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.2861 3.8099)
-				(mid 1.5677 3.5123)
-				(end 1.2701 2.7939)
+				(start 2.54 -3.81)
+				(mid 1.193 -3.252)
+				(end 0.635 -1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -315,8 +223,8 @@
 					)
 				)
 			)
-			(text "4"
-				(at 2.794 -3.302 0)
+			(text "6"
+				(at 2.794 4.826 0)
 				(effects
 					(font
 						(size 0.635 0.635)
@@ -331,8 +239,8 @@
 					)
 				)
 			)
-			(text "6"
-				(at 2.794 4.826 0)
+			(text "4"
+				(at 2.794 -3.302 0)
 				(effects
 					(font
 						(size 0.635 0.635)
@@ -340,8 +248,8 @@
 				)
 			)
 			(pin input line
-				(at -2.794 3.81 0)
-				(length 0.635)
+				(at -3.81 3.81 0)
+				(length 1.27)
 				(name "1"
 					(effects
 						(font
@@ -358,8 +266,8 @@
 				)
 			)
 			(pin input line
-				(at -2.794 -0.254 0)
-				(length 0.635)
+				(at -3.81 0 0)
+				(length 1.27)
 				(name "2"
 					(effects
 						(font
@@ -376,8 +284,8 @@
 				)
 			)
 			(pin input line
-				(at -2.794 -4.318 0)
-				(length 0.635)
+				(at -3.81 -3.81 0)
+				(length 1.27)
 				(name "3"
 					(effects
 						(font
@@ -394,16 +302,16 @@
 				)
 			)
 			(pin input line
-				(at 2.794 -4.318 180)
-				(length 0.635)
-				(name "4"
+				(at 3.81 3.81 180)
+				(length 1.27)
+				(name "6"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -412,8 +320,8 @@
 				)
 			)
 			(pin input line
-				(at 2.794 -0.254 180)
-				(length 0.635)
+				(at 3.81 0 180)
+				(length 1.27)
 				(name "5"
 					(effects
 						(font
@@ -430,16 +338,16 @@
 				)
 			)
 			(pin input line
-				(at 2.794 3.81 180)
-				(length 0.635)
-				(name "6"
+				(at 3.81 -3.81 180)
+				(length 1.27)
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -448,5 +356,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
